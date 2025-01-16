@@ -1,0 +1,131 @@
+
+#fullPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  margin: 0;
+}
+input{
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  }
+
+table th,table td {
+    padding: 5px 15px;
+    border: 1px solid #dddddd;
+}
+#image{
+  width: 50px;  
+  height: 50px;
+  object-fit: cover; 
+  border-radius: 5px; 
+  border: 1px solid #ddd; 
+}
+table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:hover {
+  background-color: #d5d5d5;
+  cursor: pointer;
+}
+
+button {
+  background-color: #009879;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#pageNav{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  /* border: 1px solid; */
+}
+#p1{
+  width: 40%;
+  /* border: 1px solid; */
+  text-align: left;
+}
+#p2{
+  width: 40%;
+  /* border: 1px solid; */
+  text-align: right;
+}
+button:hover {
+  background-color: #007f66;
+}
+  
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  color: #333;
+  /* appearance: none;  */
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  max-width: 200px; /* Adjust width as needed */
+  margin: 10px 0;
+  transition: border-color 0.3s ease;
+}
+
+select:hover {
+  border-color: #888;
+}
+
+select:focus {
+  border-color: #4caf50; /* Highlight border color when focused */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+select option {
+  color: #333;
+  padding: 10px;
+  background: white;
+}
+#staticsBox{
+  background-color:#009879; /* Yellow background similar to image */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+#staticsBox p{
+  margin: 10px 0; 
+  font-size: 1rem; 
+  color: white; 
+}
